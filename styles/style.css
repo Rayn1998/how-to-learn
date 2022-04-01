@@ -113,7 +113,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph {}
+/* .two-columns__paragraph {} */
 
 .two-columns__paragraph_mid {
   margin: 30px auto;
@@ -382,6 +382,6 @@
   text-decoration: underline;
 }
 
-.footer__column_content_social {
+/* .footer__column_content_social {
   /* margin-left: 50%; */
-}
+} */
