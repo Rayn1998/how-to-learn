@@ -63,7 +63,7 @@
 
 
 
-.header__main-ilustration {
+.header__main-illustration {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -308,7 +308,8 @@
 .footer {
   background-color: #1f1f1f;
   color: white;
-  /* margin: 0 auto; */
+  min-height: 350px;
+  /* border: solid 2px red; */
 }
 
 .footer__columns {
@@ -317,11 +318,15 @@
   justify-content: space-between;
   width: 90%;
   padding: 60px 0 40px;
-  
+  /* border: solid 2px red; */
 }
 
 .footer__column_content_copyright {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: solid 2px red; */
 }
 
 .logo_place_footer {
@@ -335,8 +340,8 @@
   font-size: 18px;
   font-weight: normal;
   padding: 18px 0;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
 }
 
 .footer__column-heading {
