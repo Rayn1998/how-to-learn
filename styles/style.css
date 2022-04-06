@@ -381,7 +381,5 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  border-radius: 50%;
-  filter: saturate(0);
   padding-right: 10px;
 }
