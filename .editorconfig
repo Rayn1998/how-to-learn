@@ -43,3 +43,7 @@ trim_trailing_whitespace = true
 # Possible values - true, false
 
 insert_final_newline = true
+
+[user]
+	name = Yuriy Bodolanov
+	mail = magikonermad@yandex.ru
