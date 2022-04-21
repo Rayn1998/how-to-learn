@@ -1,0 +1,21 @@
+.feynman__link:link,
+.feynman__link:visited {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.feynman__link:hover,
+.feynman__link:active {
+  text-decoration: underline;
+  color: orangered;
+  filter: opacity(0.5);
+  transition: filter 0.4s ease;
+}

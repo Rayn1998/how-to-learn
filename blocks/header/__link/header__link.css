@@ -1,0 +1,13 @@
+.header__link,
+.header__link:visited {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:hover,
+.header__link:active {
+  text-decoration: underline;
+  color: orangered;
+  filter: opacity(0.5);
+  transition: filter 0.4s ease;
+}

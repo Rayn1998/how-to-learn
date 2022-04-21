@@ -1,0 +1,10 @@
+.resources__link:link,
+.resoources__link:visited {
+  text-decoration: none;
+}
+
+.resources__link:hover,
+.resources__link:active {
+  filter: opacity(0.5);
+  transition: filter 0.4s ease;
+}

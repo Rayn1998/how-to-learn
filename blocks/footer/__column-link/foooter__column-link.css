@@ -1,0 +1,19 @@
+.footer__column-link:link,
+.footer__column-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+  color: orangered;
+  filter: opacity(0.5);
+  transition: filter 0.4s ease;
+}
+
+.footer__column-link:active {
+  text-decoration: underline;
+  color: violet;
+  filter: opacity(0.5);
+  transition: filter 0.4s ease;
+}
